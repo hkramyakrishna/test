@@ -1,8 +1,8 @@
 #!/bin/bash
 install_awscli()
 {
-    sudo apt-update
-   sudo apt-install awscli
+    sudo apt-get update
+   sudo apt-get -y install awscli
     if [ $? -ne 0 ]; then
     echo "awscli not installed"
     fi
@@ -10,8 +10,8 @@ install_awscli()
 }
 install_netcat()
 {
-   sudo apt-update
-   sudo apt-install netcat
+   sudo apt-get update
+   sudo apt-get -y install netcat
     if [ $? -ne 0 ]; then
     echo "netcat not installed"
     fi
