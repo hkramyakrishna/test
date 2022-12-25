@@ -19,3 +19,4 @@ install_netcat()
 }
 
 install_awscli
+install_netcat
