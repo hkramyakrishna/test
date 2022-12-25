@@ -1,5 +1,5 @@
 #!/bin/bash
-install_awscli
+install_awscli()
 {
     sudo apt-update
    sudo apt-install awscli
@@ -8,7 +8,7 @@ install_awscli
     fi
     echo "awscli installed successfully"
 }
-install_netcat
+install_netcat()
 {
    sudo apt-update
    sudo apt-install netcat
