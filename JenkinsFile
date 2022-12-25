@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'https://github.com/hkramyakrishna/test/blob/main/dep.sh'
+                sh './main/dep.sh'
 		
             }
         }
