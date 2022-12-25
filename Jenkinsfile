@@ -9,6 +9,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+		    sh "chmod +x ./dep.sh"
                 sh "./dep.sh"
 	    }
         }
